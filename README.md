@@ -34,7 +34,7 @@ This section contains security vulnerabilities discovered during research on Fre
 | [CVE-2026-21429](https://nvd.nist.gov/vuln/detail/CVE-2026-21429) | Broken Access Control allowing unauthorized access to restricted application functionality. |
 | [CVE-2026-21432](https://nvd.nist.gov/vuln/detail/CVE-2026-21432) | Stored Cross-Site Scripting (XSS) vulnerability affecting authenticated users via persistent input injection. |
 | [CVE-2026-21431](https://nvd.nist.gov/vuln/detail/CVE-2026-21431) | Stored Cross-Site Scripting (XSS) allowing execution of malicious scripts through user-controlled input fields. |
-| [CVE-2026-26987](https://nvd.nist.gov/vuln/detail/CVE-2026-26987) | Security vulnerability disclosed as part of coordinated responsible disclosure process. |
+| [CVE-2026-26987](https://nvd.nist.gov/vuln/detail/CVE-2026-26987) | reflected xss via email field. |
 
 ---
 
