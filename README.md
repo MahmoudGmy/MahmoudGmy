@@ -1,16 +1,60 @@
-## Hi there 👋
+![Pentester](https://img.shields.io/badge/Role-Pentester-red)
+![Bug Bounty](https://img.shields.io/badge/Bug%20Bounty-Researcher-blue)
+![Focus](https://img.shields.io/badge/Web-Security-green)
 
-<!--
-**MahmoudGmy/MahmoudGmy** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# 👋 Hi, I'm Mahmoud Gamal
 
-Here are some ideas to get you started:
+💻 Cybersecurity Researcher | Bug Hunter | Pentester  
+🎯 Focus: Web Security | API Security | Vulnerability Research  
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+## 🧠 About Me
+- I specialize in web application security testing
+- I focus on discovering real-world vulnerabilities (IDOR, XSS, SSTI, etc.)
+- I participate in responsible disclosure programs
+
+---
+
+## 🏆 CVEs & Security Research
+
+### 🔥 Critical Vulnerabilities
+
+- **CVE-XXXX-XXXX – Server-Side Template Injection (RCE)**
+  - 🔗 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-XXXX-XXXX
+  - 🔗 https://nvd.nist.gov/vuln/detail/CVE-XXXX-XXXX
+
+- **CVE-XXXX-XXXX – SSTI leading to Remote Code Execution**
+  - 🔗 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-XXXX-XXXX
+
+---
+
+### ⚠️ High Severity
+
+- **CVE-XXXX-XXXX – Broken Access Control**
+  - 🔗 https://nvd.nist.gov/vuln/detail/CVE-XXXX-XXXX
+
+- **CVE-XXXX-XXXX – CSRF + XSS leading to Account Takeover**
+  - 🔗 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-XXXX-XXXX
+
+---
+
+### 🧩 Medium Severity
+
+- **CVE-XXXX-XXXX – Stored XSS affecting authenticated users**
+  - 🔗 https://nvd.nist.gov/vuln/detail/CVE-XXXX-XXXX
+
+---
+
+## 📊 Skills
+- Web Pentesting
+- Burp Suite
+- API Security Testing
+- Vulnerability Research
+- OWASP Top 10
+
+---
+
+## 📫 Contact
+- GitHub: https://github.com/your-username
+- Email: your@email.com
