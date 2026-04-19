@@ -18,43 +18,24 @@
 
 ## 🏆 CVEs & Security Research
 
-### 🔥 Critical Vulnerabilities
+# 🛡️ CVE Disclosures 🛡️
 
-- **CVE-XXXX-XXXX – Server-Side Template Injection (RCE)**
-  - 🔗 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-XXXX-XXXX
-  - 🔗 https://nvd.nist.gov/vuln/detail/CVE-XXXX-XXXX
+Welcome to the CVE disclosures section of this repository! Here, you'll find a list of potential security vulnerabilities that I have discovered while working on Free Open Source Software (FOSS) applications.
 
-- **CVE-XXXX-XXXX – SSTI leading to Remote Code Execution**
-  - 🔗 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-XXXX-XXXX
+## CVEs I Have Discovered
 
----
+Below is a list of all the CVEs that I have discovered.
 
-### ⚠️ High Severity
+| Findings                                                                                                                          | Description                                                                                                                                                                                                                                                                                                                                                  |
+| --------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [GHSA-hw47-q7r3-m8pj](https://github.com/10splayaSec/CVE-Disclosures/blob/main/ITFlow/GHSA-hw47-q7r3-m8pj/GHSA-hw47-q7r3-m8pj.md) | A Stored Cross-Site Scripting (XSS) vulnerability has been detected in the ITFlow application. This flaw allows attackers to inject malicious code into the application, which can then be executed by a victim's browser. The threat actor can change a user's password on their behalf without the user's knowledge, resulting in a full account takeover. |
+| [CVE-2023-25346](https://github.com/10splayaSec/CVE-Disclosures/blob/main/ChurchCRM/CVE-2023-25346/README.md)                     | A reflected cross-site scripting (XSS) vulnerability in ChurchCRM 4.5.3 allows remote attackers to inject arbitrary web script or HTML via the `id` parameter of the `/churchcrm/v2/family/not-found` endpoint.                                                                                                                                              |
+| [CVE-2023-25347](https://github.com/10splayaSec/CVE-Disclosures/blob/main/ChurchCRM/CVE-2023-25347/README.md)                     | A stored cross-site scripting (XSS) vulnerability in ChurchCRM 4.5.3, allows remote attackers to inject arbitrary web script or HTML via input fields. These input fields are located in the "Title" Input Field in EventEditor.php.                                                                                                                         |
+| [CVE-2023-25348](https://github.com/10splayaSec/CVE-Disclosures/blob/main/ChurchCRM/CVE-2023-25348/README.md)                     | ChurchCRM 4.5.3 contains a CSV/Formula injection vulnerability via the `Last Name` and `First Name` input fields when creating a new person. These vulnerabilities allow attackers to execute arbitrary code through a crafted Excel file, which could be potentially harmful.                                                                               |
+| [CVE-2023-26839](https://github.com/10splayaSec/CVE-Disclosures/blob/main/ChurchCRM/CVE-2023-26839/README.md)                     | A cross-site request forgery (CSRF) vulnerability in ChurchCRM 4.5.3 allows attackers to edit information from existing people on the site.                                                                                                                                                                                                                  |
+| [CVE-2023-26840](https://github.com/10splayaSec/CVE-Disclosures/blob/main/ChurchCRM/CVE-2023-26840/README.md)                     | A cross-site request forgery (CSRF) vulnerability in ChurchCRM 4.5.3 allows attackers to set a person to a Administrator user.                                                                                                                                                                                                                               |
+| [CVE-2023-26841](https://github.com/10splayaSec/CVE-Disclosures/blob/main/ChurchCRM/CVE-2023-26841/README.md)                     | A cross-site request forgery (CSRF) vulnerability in ChurchCRM v4.5.3 allows attackers to change any user's password except for the user that is currently logged in.                                                                                                                                                                                        |
+| [CVE-2023-26842](https://github.com/10splayaSec/CVE-Disclosures/blob/main/ChurchCRM/CVE-2023-26842/README.md)                     | A stored Cross-site scripting (XSS) vulnerability in ChurchCRM 4.5.3 allows remote attackers to inject arbitrary web script or HTML via the OptionManager.php endpoint.                                                                                                                                                                                      |
+| [CVE-2023-26843](https://github.com/10splayaSec/CVE-Disclosures/blob/main/ChurchCRM/CVE-2023-26843/README.md)                     | A stored Cross-site scripting (XSS) vulnerability in ChurchCRM 4.5.3 allows remote attackers to inject arbitrary web script or HTML via the NoteEditor.php.                                                                                                                                                                                                  |
+| [CVE-2023-31548](https://github.com/10splayaSec/CVE-Disclosures/blob/main/ChurchCRM/CVE-2023-31548/README.md)| A stored Cross-site scripting (XSS) vulnerability in the FundRaiserEditor.php component of ChurchCRM v4.5.3 allows attackers to execute arbitrary web scripts or HTML via a crafted payload.                                                                                                                                                                                                                                                                                                                                                             |
 
-- **CVE-XXXX-XXXX – Broken Access Control**
-  - 🔗 https://nvd.nist.gov/vuln/detail/CVE-XXXX-XXXX
-
-- **CVE-XXXX-XXXX – CSRF + XSS leading to Account Takeover**
-  - 🔗 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-XXXX-XXXX
-
----
-
-### 🧩 Medium Severity
-
-- **CVE-XXXX-XXXX – Stored XSS affecting authenticated users**
-  - 🔗 https://nvd.nist.gov/vuln/detail/CVE-XXXX-XXXX
-
----
-
-## 📊 Skills
-- Web Pentesting
-- Burp Suite
-- API Security Testing
-- Vulnerability Research
-- OWASP Top 10
-
----
-
-## 📫 Contact
-- GitHub: https://github.com/your-username
-- Email: your@email.com
